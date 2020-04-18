@@ -1,0 +1,14 @@
+.container-align{
+    border-radius: 2.25rem;
+    margin-top: 85px;
+}
+.groove{
+    border-style: groove;
+}
+.style1{
+    max-width: 400px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin: 0 auto;
+    
+}

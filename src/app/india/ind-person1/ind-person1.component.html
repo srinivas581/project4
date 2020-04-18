@@ -1,0 +1,37 @@
+<!-- <p>
+  ind-person1 works!
+</p> -->
+<!-- {{diagnostic}} -->
+<div class="col-sm-4">
+  <form #f="ngForm">
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" class="form-control" name="name" #name="ngModel" [(ngModel)]="model.name" required>
+      <div *ngIf="f.submitted && name.invalid">
+        <div>This field is required</div>
+      </div>  
+    </div>
+
+    <div class="form-group">
+      <label for="alterEgo">Alter Ego</label>
+      <input type="text" class="form-control" name="alterEgo" #alterEgo="ngModel" [(ngModel)]="model.alterEgo" >
+      <div *ngIf="f.submitted && name.invalid">
+        <div>This field is required</div>
+      </div>
+    </div>
+
+    <!-- <div class="form-group">
+            <label for="power">Hero Power</label>
+            <select class="form-control"  id="power"
+                    required
+                    [(ngModel)]="model.power" name="power">
+              <option *ngFor="let pow of powers" [value]="pow">{{pow}}</option>
+            </select>
+          </div> -->
+    <button class="btn btn-primary" (click)="submit()" [disabled]="!f.form.valid">
+      submit
+    </button>
+  </form>
+
+</div>
+

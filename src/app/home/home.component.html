@@ -1,4 +1,4 @@
-<section class="temp1">
+ <section class="temp1">
   <img class="img-responsive" src="./../../assets/air-buloon1.jpg">
 </section>
 
@@ -124,6 +124,28 @@
       GET YOUR TICKET
     </a>
   </div>
+  <!-- <div class="ind-btn">
+    <button class="btn btn-primary" [routerLink]="['/india/ind-p1']">
+      person1
+    </button>
+
+    <button class="btn btn-primary" [routerLink]="['/india/ind-p2']">
+      person2
+    </button>
+
+    <button class="btn btn-primary" [routerLink]="['/india/ind-p3']">
+      person3
+    </button>
+
+    <button class="btn btn-primary" [routerLink]="['/india/ind-p4']">
+      person4
+    </button>
+    
+    <button class="btn btn-primary" [routerLink]="['/india/ind-person1/ap-p']">
+      AP-person
+    </button> -->
+
+  <!-- </div> -->
 </section>
 
 
@@ -196,4 +218,23 @@
       </div>
 
     </div>
+</section> 
+
+
+
+<!-- <h1>Script inside body</h1>
+<p id ="demo">click here to change the style</p>
+<button type="button" (click)="displayInfo()">Click ME</button> -->
+
+<section class="temp5">
+    <div *ngFor="let a of countryData;let i=index">
+      <div>
+       <span> {{a.num}}.{{a.name}}</span>
+        <span></span>
+
+      </div>
+    </div>
+
 </section>
+<button (click)="registration()">click</button>
+<mat-checkbox>Check me!</mat-checkbox>  
