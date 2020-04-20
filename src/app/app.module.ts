@@ -12,6 +12,7 @@ import { FormsModule, ReactiveFormsModule} from "@angular/forms";
 import { HomeComponent } from './home/home.component';
 import { AppService } from './app.service';
 import { NewsComponent } from './news/news.component';
+import { NewregisterComponent } from './newregister/newregister.component';
 
 // import { AustraliaComponent } from './australia/australia.component';
 
@@ -24,7 +25,8 @@ const router:Routes=[
   {path:"home",component:HomeComponent},
   {path:"india",loadChildren:'./india/india.module#IndiaModule'},
   {path:"australia",loadChildren:'./australia/australia.module#AustraliaModule'},
-  {path:"news",component:NewsComponent}
+  {path:"news",component:NewsComponent},
+  {path:"newregister",component:NewregisterComponent}
 ]
 
 
@@ -34,6 +36,7 @@ const router:Routes=[
     AppComponent,
     HomeComponent,
     NewsComponent,
+    NewregisterComponent,
     
     // AustraliaComponent,
    

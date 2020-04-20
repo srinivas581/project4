@@ -23,14 +23,14 @@ userModel={
   phonenumber:""
 }
  
-validateA(value){
-  if(value=='default'){
-    this.aHasError=true;
-  }
-  else{
-    this.aHasError=false;
-  }
-}
+// validateA(value){
+//   if(value=='default'){
+//     this.aHasError=true;
+//   }
+//   else{
+//     this.aHasError=false;
+//   }
+// }
  
 // constructor( )
 //   {}
@@ -63,7 +63,7 @@ validateA(value){
   ngOnInit() {
    
     this.responseData();
-
+    // this.aHasError=false;
   }
 // submit(){
 //     if(this.model)
@@ -71,7 +71,7 @@ validateA(value){
 
 // }
 onSubmit(){
-  // console.log(this.userModel);
+  console.log(this.userModel);
 localStorage.setItem('registerdata',JSON.stringify(this.userModel))
 
 }

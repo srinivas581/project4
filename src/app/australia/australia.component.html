@@ -144,12 +144,12 @@
           </div>
 
         <div class="form-group">
-          <select class="custom-select form-control" (blur)="validateA(a.value)" (change)="validateA(a.value)"  
+          <select class="custom-select form-control" required
            #a="ngModel" name="a" [(ngModel)]="userModel.a">
             <option value="">I'm interested in </option>
             <option *ngFor="let a of topics">{{ a }}</option>
           </select>
-          <div [hidden]="!aHasError || a.untouched" class="alert alert-danger">
+          <div [hidden]="a.valid || a.untouched" class="alert alert-danger">
             Choose any course
           </div>
         </div>
@@ -194,7 +194,7 @@
           
         </div>
 
-        <button class="btn btn-primary" [disabled]="userForm.form.valid || aHasError"  type="submit">Submit </button>
+        <button class="btn btn-primary" [disabled]="userForm.form.invalid"  type="submit">Submit </button>
         <!-- <button type="button" class="btn btn-default" (click)="newUser():userForm.reset()">New User</button> -->
         
 
