@@ -13,21 +13,29 @@ import Swal from 'sweetalert2';
 export class NewregisterComponent implements OnInit {
 
   registerForm:FormGroup;
+  public show:boolean=true;
   constructor(public routes:Router , private formBuilder: FormBuilder) { }
 
   
   registerData=[1];
   
-  
+
 
   ngOnInit() {
     
   }
-add(i){
+add(){
   console.log(this.registerData.length+1);
+  
   this.registerData.push(this.registerData.length+1)
+  // if(this.registerData.length==2){
+  //   this.show=false;
+  // }
+  
+  
 }
 delete(i){
+
   this.registerData.splice(i,1)
   Swal.fire({
     title: 'SuccessFully deleted',
@@ -35,5 +43,6 @@ delete(i){
     icon: 'success',
     confirmButtonText: 'YES'
   })
+  
 }
 }

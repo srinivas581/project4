@@ -13,7 +13,8 @@ import { IndiaComponent } from './india.component';
 // import { IndPerson2Component } from './ind-person2/ind-person2.component';
 import { IndPerson3Component } from './ind-person3/ind-person3.component';
 import { IndPerson4Component } from './ind-person4/ind-person4.component';
-
+import {MatDialogModule} from '@angular/material/dialog';
+import {MatButtonModule} from '@angular/material/button';
  
 
 // import { ApPersonComponent } from './ind-person1/ap-person/ap-person.component';
@@ -50,7 +51,12 @@ const router:Routes=[
       FormsModule,
       ReactiveFormsModule,
       CommonModule,
-      MatCheckboxModule
+      MatCheckboxModule,
+      MatDialogModule,
+      MatButtonModule
+    ],
+    entryComponents:[
+      IndPerson3Component
     ],
     providers: [],
     

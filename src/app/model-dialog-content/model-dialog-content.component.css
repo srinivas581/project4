@@ -1,0 +1,12 @@
+.field1{
+    width: 275px;
+    float: left;
+}
+.field2{
+    width: 275px;
+    float:right;
+}
+.sub-align{
+    margin-top: 275px;
+    margin-left: -535px;
+}

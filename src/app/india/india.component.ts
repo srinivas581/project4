@@ -49,6 +49,7 @@ onSubmit() {
   }
 
   alert('SUCCESS!! :-)\n\n' + JSON.stringify(this.registerForm.value))
+  console.log(this.registerForm.value)
 }
 onReset() {
   this.submitted = false;

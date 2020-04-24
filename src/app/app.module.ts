@@ -2,7 +2,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from "@angular/common/http";
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {MatCheckboxModule} from '@angular/material/checkbox';
+import {MatCheckboxModule, MatCheckbox} from '@angular/material/checkbox';
+
 
 
 import { AppComponent } from './app.component';
@@ -12,7 +13,16 @@ import { FormsModule, ReactiveFormsModule} from "@angular/forms";
 import { HomeComponent } from './home/home.component';
 import { AppService } from './app.service';
 import { NewsComponent } from './news/news.component';
-import { NewregisterComponent } from './newregister/newregister.component';
+import { MatDialogModule } from '@angular/material/dialog';
+import { NewregisterContentDialogComponent } from './newregister-content-dialog/newregister-content-dialog.component';
+import { ModelDialogComponent } from './model-dialog/model-dialog.component';
+import { ModelDialogContentComponent } from './model-dialog-content/model-dialog-content.component';
+import { MatButton, MatButtonModule } from '@angular/material/button';
+
+
+
+// import { NewregisterComponent } from './newregister/newregister.component';
+
 
 // import { AustraliaComponent } from './australia/australia.component';
 
@@ -26,7 +36,9 @@ const router:Routes=[
   {path:"india",loadChildren:'./india/india.module#IndiaModule'},
   {path:"australia",loadChildren:'./australia/australia.module#AustraliaModule'},
   {path:"news",component:NewsComponent},
-  {path:"newregister",component:NewregisterComponent}
+  {path:"newregister",loadChildren:'./newregister/newregister.module#NewregisterModule'},
+  {path:"model-dialog",component:ModelDialogComponent},
+  {path:"model-dialog-content",component:ModelDialogContentComponent}
 ]
 
 
@@ -36,7 +48,11 @@ const router:Routes=[
     AppComponent,
     HomeComponent,
     NewsComponent,
-    NewregisterComponent,
+    NewregisterContentDialogComponent,
+    ModelDialogComponent,
+    ModelDialogContentComponent,
+    // NewregisterComponent,
+   
     
     // AustraliaComponent,
    
@@ -44,6 +60,10 @@ const router:Routes=[
     
 
   ],
+  entryComponents:[
+    
+  ],
+
   imports: [
     BrowserModule,
     RouterModule.forRoot(router),
@@ -52,7 +72,9 @@ const router:Routes=[
     ReactiveFormsModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    MatCheckboxModule
+    MatCheckboxModule,
+    MatDialogModule,
+    MatButtonModule
   ],
   providers: [
     AppService
