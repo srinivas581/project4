@@ -1,0 +1,43 @@
+.today-sec{
+    margin-top: 30px;
+}
+.first-card-top{
+    height: 220px;
+    width: 500px;
+}
+.first-card-bottom{
+    height: 216px;
+    width: 500px;
+    margin-top: 14px;
+    
+}
+/* .bg-color{
+background: gray;
+} */
+h4{
+    margin-top: 35px;
+    font-size: xx-large;
+    font-family: cursive;
+}
+.spn-14{
+    margin-left: 45% !important;
+}
+.mat-card-title{
+    font-size: larger;
+    font-family: cursive;
+    
+}
+h4{
+    margin-left: 50px;
+    margin-top: 14px;
+}
+span{
+    margin-left: 52%;
+}
+h6{
+    margin-left: 51px;
+    font-family: cursive;
+}
+.span1{
+    margin-left: 59%;
+}

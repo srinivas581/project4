@@ -1,0 +1,77 @@
+.side-navi{
+    width: 180px;
+    background: #634DA3;
+    height: 640px;
+    margin-top: 0px;
+    font-size: smaller;
+    font-family: cursive;
+
+}
+.side-navi ul li a{
+color: #fff;
+padding: 5px;
+padding-left: 20px;
+padding-right: 15px;
+}
+.side-navi ul li a:hover{
+color: #000;
+border-radius: 0px 25px 25px 0px;
+padding: 5px;
+padding-left: 20px;
+padding-right: 15px;
+}
+/* .side-navi ul li a:active{
+    color: #000 !important;
+} */
+.active{
+color: #000 ;
+border-radius: 0px 25px 25px 0px !important;
+padding: 5px;
+padding-left: 20px;
+padding-right: 15px;
+} 
+
+.side-navi ul li a:span hover{
+    color: #634DA3;
+  
+    
+    }
+.pad-left-0{
+padding-left: 0;
+}
+.img-align img{
+    width: 150px;
+    margin-right: 5px;
+    margin-top: 14px;
+}
+.active-link{
+background: #000;
+}
+/* .nav>li>a:focus, .nav>li>a:hover{
+    background: none;
+} */
+.pad-0{
+    padding: 0;
+}
+.bg-color{
+background: #efefef;
+width: 1169px;
+}
+.slide-bar{
+    margin-top: 39px !important;
+}
+span{
+    font-size: 20px;
+    padding: 5px;
+    vertical-align: sub;
+}
+a{
+    font-family: Roboto;
+    
+}
+.navbar-collapse{
+    padding-left: 0;
+}
+/* .navbar-nav>li>a{
+    padding: 10px;
+} */

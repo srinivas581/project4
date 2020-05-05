@@ -1,0 +1,29 @@
+/* .dash-align{
+    max-width: 98%;
+    margin-left: 15px;
+    margin-top: 13px;
+    background: #fff;
+    height: 135px;
+    position: relative;
+} */
+h4{
+    padding: 12px 30px;
+    font-family: sans-serif;
+}
+.group-mat{
+    margin-top: 22px;
+}
+.camp-btn{
+    float: right;
+    border-radius: 20px;
+    font-size: x-small;
+    padding: 10px;
+    width: 140px;
+    background: #634da3;
+    margin: 22px;
+   
+}  
+.content-label{
+    font-size: smaller;
+
+}

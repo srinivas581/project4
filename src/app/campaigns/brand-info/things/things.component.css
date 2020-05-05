@@ -1,0 +1,33 @@
+.form-card{
+    max-width: 104%;
+    margin-left: 0;
+    margin-top: 9em;
+    background: #fff;
+    height: 32em;
+    
+    
+}
+.form-fields{
+    margin-top: 2em;
+    padding-left: 3em;
+}
+.row-mat-field{
+    width: 40em;
+    margin-left: 33px;
+}
+.example-full-width{
+    padding: 20px;
+    width: 300px;
+}
+.width-full{
+    width: 600px;
+    }
+    .second-field{
+        margin-left: 3em;
+    }
+.img-bg{
+    width: 15%;
+    margin-top: -76px;
+    margin-left: 3em;
+    
+}

@@ -1,0 +1,16 @@
+.gift-table{
+    margin-top: 20px;
+    background: #efefef;
+}
+th{
+    padding-left: 9em;
+}
+td{
+    font-weight: bold;
+}
+.table-mat{
+   background: #ffffffad;
+}
+.table_data{
+    margin-top: 10px;
+}

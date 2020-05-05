@@ -1,2 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
+.otp-input{
+    border: 1px solid #ffffff !important;
+    border-bottom: 1px solid #ccc !important;
+    background: #fafafa ;
+
+}
+.otp-input:focus{
+    outline: none !important;
+    
+    
+}
+.btn-outline-primary:hover{
+    border-color: white; 
+}
+.mat-tab-label{
+    font-size: 12px !important;
+}
+.dash-align{
+    max-width: 98%;
+    margin-left: 15px;
+    margin-top: 13px;
+    background: #fff;
+    height: 135px;
+    position: relative;
+    
+}
+.po-top{
+    position: absolute;
+    width: 200px;
+    top: 0;
+    right: 0;
+    
+}

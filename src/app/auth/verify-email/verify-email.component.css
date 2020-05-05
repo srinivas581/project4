@@ -1,0 +1,57 @@
+.text-align{
+    margin-top: 216px;
+}
+h5{
+    font-size: x-small;
+}
+h4{
+    font-family: inherit;
+    font-size: 25px;
+}
+#partitioned {
+    padding-left: 15px;
+    letter-spacing: 42px;
+    border: 0;
+    background-image: linear-gradient(to left, black 70%, rgba(255, 255, 255, 0) 0%);
+    background-position: bottom;
+    background-size: 50px 1px;
+    background-repeat: repeat-x;
+    background-position-x: 35px;
+    width: 220px;
+  }
+  .verify-btn{
+    /* margin-top: 15px;
+    margin-left: 185px; */
+    border-radius: 20px;
+    width: 100px;
+    background-color: rgba(179, 91, 219, 0.219);
+    color: white;
+    font-size: smaller ;
+    height: 40px;
+    margin-left: 145px;
+    margin-top: 45px
+
+}
+.field{
+    margin-top: 25px;
+    width: 60px;
+    text-align: center;
+    /* background-color: rgb(138, 95, 179); */
+    font-size: small
+    
+}
+.fields-align{
+    padding: 10px;
+}
+.text-align{
+    margin-left: 35px;
+}
+.field-otp{
+    margin-left: 35px;
+    margin-top: 25px;
+}
+.input-otp{
+    border: 1px solid #ffffff !important;
+    border-bottom: 1px solid #ccc !important;
+
+}

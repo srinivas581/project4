@@ -1,0 +1,48 @@
+.top-right{
+    margin-top: 20px;
+    margin-left: 440px; 
+     font-size: smaller;
+}
+.details{
+    margin-top: 60px;
+    /* font-size: larger; */
+    /* font-family: sans-serif; */
+    font-stretch: ultra-expanded;
+    font-size: large;
+    font-family: inherit;
+    /* font-family: inherit; */
+    /* font-size: larger; */
+}
+h6{
+    font-size: x-small;
+}
+.butn-align{
+    border-radius: 20px;
+    margin-left: 20px;
+    background-color: white;
+    color: blueviolet;
+    width: 105px;
+    
+}
+.field{
+    width: 500px;
+    
+}
+h5{
+    margin-left: 345px;
+    font-size: smaller;
+}
+.login-btn{
+    margin-top: 15px;
+    margin-left: 185px;
+    border-radius: 20px;
+    width: 100px;
+    background-color: rgba(179, 91, 219, 0.219);
+    color: white;
+    font-size: smaller ;
+    height: 40px
+
+}
+.form-align{
+    margin-top: 25px;
+}

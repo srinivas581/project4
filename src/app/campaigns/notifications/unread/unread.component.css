@@ -1,0 +1,18 @@
+span{
+    float: right;
+    font-size: x-small;
+    margin-right: 15px;
+}
+p{
+    word-spacing: 8px;
+    font-weight: bold;
+    font-size: 13px;
+    font-style: san;
+    font-family: sans-serif;
+}
+.unread{
+    margin-top: 25px;
+}
+.unread_mat{
+margin-top: 10px;
+}

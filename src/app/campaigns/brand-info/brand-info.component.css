@@ -1,0 +1,75 @@
+/* .camp-header{
+background: #fff;
+}
+.img-align {
+    width: 150px;
+    border-radius: 50%;
+}
+.img-bg-color{
+background: #efefef;
+}
+.form-bg{
+    background: #fff;
+}
+.field-center{
+ 
+    margin-top: 10em;
+}
+.example-full-width{
+padding: 20px;
+width: 300px;
+}
+.width-full{
+width: 600px;
+}
+.btn-right{
+    float: right;
+    border-radius: 15px;
+    padding: 5px 23px;
+    margin-top: -525px;
+    margin-right: 27px;
+}
+h4{
+    margin-left: 30px;
+}
+.mat-tab-header{
+    margin-left: 32px;
+    margin-top: 25px;
+    
+}
+.mat-tab-label .mat-tab-label-content{
+    font-size: x-small;
+}
+.mat-tab-label{
+    font-size: x-small;
+}
+ */
+
+ h4{
+    padding: 12px 30px;
+    font-family: inherit;
+}
+.group-mat{
+    margin-top: 22px;
+}
+.camp-btn{
+    
+    border-radius: 20px;
+    font-size: x-small;
+    padding: 10px;
+    width: 140px;
+    background: #634da3;
+    margin: 22px;
+    
+   
+}
+.content-label{
+    font-size: smaller;
+
+}
+/* .img-bg{
+    width: 15%;
+    
+} */
+
+

@@ -1,0 +1,47 @@
+.steps{
+    margin-top: 25px;
+}
+h5{
+    padding-left: 2em;
+    font-weight: bold;
+    font-family: unset;
+}
+p{
+    padding-left: 28px;
+    font-size: smaller;
+    font-family: cursive;
+}
+.success-btn{
+    font-size: 8px;
+    font-family: cursive;
+    float: right;
+    margin-right: 7px;
+    margin-top: 12px !important;
+    border-radius: 21px;
+    width: 20em;
+    height: 5em;
+}
+.step1{
+    padding-bottom: 30px;
+}
+.step2{
+    margin-top: 15px;
+    padding-bottom: 30px;
+}
+.money-btn{
+    font-size: 8px;
+    font-family: cursive;
+    float: right;
+    margin-right: 7px;
+    margin-top: 12px !important;
+    border-radius: 21px;
+    width: 20em;
+    height: 5em;
+    color: blue;
+    background: #fff;
+}
+.step3{
+    margin-top: 15px;
+    padding-bottom: 30px;
+}
+

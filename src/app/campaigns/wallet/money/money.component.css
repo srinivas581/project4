@@ -1,0 +1,24 @@
+.banking-card{
+    margin-top: 3em;
+}
+.internet-banking{
+    font-weight: bold;
+    position: relative;
+    
+}
+h6{
+    
+    float: right;
+    margin-right: 20px;
+    margin-top: -10px;
+    font-size: xx-small;
+}
+.internet-banking{
+    margin-top: 10px;
+}
+span{
+    padding-left: 5em;
+    font-family:  'verdana';
+    
+
+}

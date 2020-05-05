@@ -1,0 +1,39 @@
+<!-- <p>
+  new works!
+</p> -->
+<div class="col-sm-12 gift-table">
+  <mat-card class="table-mat">
+    <table>
+      <tbody>
+          <tr>
+              <td>S.No</td>
+              <th>Name</th>
+              <th>CouponId</th>
+              <th>Value</th>
+              <th>Validity</th>
+              <th>RedeemedOn</th>
+              <th>RedeemedBy</th>
+      
+            </tr>
+      
+      </tbody>
+          </table>
+  </mat-card>
+  <mat-card *ngFor="let x of table_data;let i=index" class="table_data">
+    <table>
+      <tbody>
+          <tr>
+              <td>{{i+1}}</td>
+              <th>{{x.Name}}</th>
+              <th>{{x.CouponId}}</th>
+              <th>{{x.Value}}</th>
+              <th>{{x.Validity}}</th>
+              <th>{{x.RedeemedOn}}</th>
+              <th>{{x.RedeemedBy}}</th>
+      
+            </tr>
+      
+      </tbody>
+          </table>
+  </mat-card>
+</div>

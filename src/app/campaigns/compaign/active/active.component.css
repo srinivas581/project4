@@ -1,0 +1,116 @@
+.pad-0{
+    padding: 0;
+    padding-bottom: 30px;
+}
+    
+
+p{
+    word-spacing: 27px;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+span{
+    padding-left: 29em;
+    float:right;
+}
+.mr-bt{
+    margin-bottom: 8px;
+}
+h6{
+    font-size: 15px;
+    
+    font-weight: bold;
+    font-family: cursive;
+}
+h5{
+    font-size: 11px;
+    font-family: sans-serif;
+    margin-top: 18px;
+}
+h4{
+    font-size: small;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.end-btn{
+    background: #df0000;
+    box-shadow: none;
+    border-radius: 21px;
+    font-size: 8px;
+    width: 31%;
+    height: 35px;
+    margin-left: 353px;
+    margin-top: 32px;
+    font-family: sans-serif;
+    border: none;
+}
+
+.title-btn{
+position: absolute;
+}
+.title-mat{
+position: relative;
+}
+.mat-cad{
+    margin-top: 30px;
+}
+.a{
+     font-size: xx-small;
+
+     
+}
+.prog-bar-1{
+    width: 108px;
+    padding-bottom: 7px;
+    border-radius: 15px;
+    float: right;
+}
+i{
+    float: right;
+    margin-top: -18px;
+    text-decoration-color: black;
+}
+.bud-text{
+font-size: x-small;
+color: black;
+float: right;
+}
+.post{
+    margin-top: 20px;
+    word-spacing: 3em;
+}
+.vedio{
+    font-weight: bold;
+    word-spacing: 43px;
+}
+.circle{
+    border-radius: 50%;
+}
+.tiktok-img{
+    width: 26px;
+    float: right;
+    margin-top: -24px;
+}
+.fb{
+    width: 30px;
+    margin-left: 31em;
+    margin-top: -42px;
+}
+.insta{
+    width: 30px;
+    margin-left: 8px;
+    margin-top: -41px;
+}
+.text-icons{
+    margin-bottom: -20px !important;
+}
+.card-2-mat{
+    margin-top: 10px;
+}
+.bud-text1{
+    font-size: x-small;
+color: black;
+float: right;
+margin-top: -16px;
+}

@@ -1,0 +1,37 @@
+<!-- <p>
+  login works!
+</p> -->
+
+
+  <div class="top-right">
+    <span>Don't have an account?</span>
+      <button class="btn btn-primary btn-xs butn-align" (click)="signup()" >Get Started</button>
+  </div>
+
+  <div class="details">
+      <p>
+        Login to <span style="color:blueviolet">CLOUTCRED</span>
+       </p>
+      <h6>Enter your Details Below</h6>
+  </div>
+
+<form class="form-align">
+  <p>
+    <mat-form-field appearance="fill" class="field">
+      <mat-label>Email</mat-label>
+      <input matInput>
+    </mat-form-field>
+  </p>
+
+  <p>
+    <mat-form-field appearance="fill" class="field">
+      <mat-label>Password</mat-label>
+      <input matInput>
+    </mat-form-field>
+  </p>
+
+<h5 routerLink="/auth/forgetpassword">Forgot Password?</h5>
+
+
+<button class="btn btn-outline-primary login-btn">Log In</button>
+</form>

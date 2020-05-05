@@ -1,0 +1,17 @@
+<!-- <p>
+  verify-email works!
+</p> -->
+<div class="text-align">
+    <div class="text-align">
+        <h4>Check Your email!</h4>
+        <h5>we have sent 6-digit confirmatin code to
+          <span style="color: blueviolet">nvrsai06@gmail.com.</span>
+          It will expire shortly.So enter it soon.</h5>
+      </div>
+      
+      <div class="field-otp">     
+        <ng-otp-input class="input-otp" (onInputChange)="onOtpChange($event)" [config]="{length:6}"></ng-otp-input>
+
+      </div>
+      <button class="btn btn-outline-primary verify-btn" (click)="reset()">Verify</button>
+</div>
